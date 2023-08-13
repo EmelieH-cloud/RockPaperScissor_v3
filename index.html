@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href='https://fonts.googleapis.com/css?family=Akatab' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -8,6 +10,23 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-	<script src="index.js"></script>
+
+    <div class="container">
+    <button id="btn1">Rock</button>
+    <button id="btn2">Paper</button>
+    <button id="btn3">Scissor</button>
+    <button id="btn4" onclick="RefreshGame()">Refresh game</button>
+  </div>
+
+  <div class="container-2">
+    <p id="feedback">Your choice</p>
+    <p id="computerfeedback">Computer's choice</p>
+    <p id="rounds">Number of rounds:</p>
+    <p id="playerpoints">Your points:</p>
+    <p id="computerpoints">Computer points:</p>
+    <p id="winner">Who won?</p>
+  </div>
+
+	<script src="script.js"></script>
   </body>
 </html>
